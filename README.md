@@ -10,16 +10,16 @@ Rather than evaluating only whether a pass was completed, FootballIQ asks a diff
 
 The project reconstructs real possession states and compares the option actually selected by the ball carrier with the alternative passing options available at that moment.
 
-Each decision is represented through features such as:
+Each decision is represented through contextual passing-option information including:
 
-- Expected pass completion
-- Expected threat
+- Expected pass completion (xPass)
+- Expected threat (xThreat)
 - Passing option score
-- Pass distance
-- Forward progression
-- Distance to the nearest defender
-- Passing-lane obstruction
 - Actual selected receiver
+
+Additional spatial features such as pass distance, forward progression,
+defender proximity and passing-lane obstruction were explored during
+feature-engineering development.
 
 The project quantifies the gap between the option selected by the player and the highest-value alternative estimated by the model.
 
