@@ -103,9 +103,6 @@ FootballIQ/
 │       ├── footballiq_decision_summary.csv
 │       └── footballiq_player_summary.csv
 │
-├── outputs/
-│   └── figures/
-│
 ├── README.md
 ├── requirements.txt
 └── .gitignore
